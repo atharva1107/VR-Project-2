@@ -27,14 +27,14 @@ Total points based on health, time, items, etc (may add or subtract other points
 ### Sketches
 
 #### 
-![alt text](https://github.com/atharva1107/VR-Project-2/tree/main/Assets/basic-outline.png)
+![alt text](https://github.com/atharva1107/VR-Project-2/blob/main/Assets/basic-outline.png)
 
 
 ##### 
 
-![alt text](https://github.com/atharva1107/VR-Project-2/tree/main/Assets/HUD-basic.png)
+![alt text](https://github.com/atharva1107/VR-Project-2/blob/main/Assets/HUD-basic.png)
 
 ##### 
 
-![alt text](https://github.com/atharva1107/VR-Project-2/tree/main/Assets/damage-indicator.png)
+![alt text](https://github.com/atharva1107/VR-Project-2/blob/main/Assets/damage-indicator.png)
 
