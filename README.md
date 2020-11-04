@@ -2,6 +2,12 @@
 
 ## COVID Shopping Simulator
 
+<br />        
+
+[Slides](https://slides.com/atharva/deck-bf825a/fullscreen)
+
+<br />    
+
 Team Anonymous
 Members:
 1. Faus Palting
