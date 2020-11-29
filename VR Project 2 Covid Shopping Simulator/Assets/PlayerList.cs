@@ -22,7 +22,7 @@ public class PlayerList : MonoBehaviour
 
     public List<string> GenerateLists()
     {
-
+        //List<string> objects = new List<string>();
         string[] objects =
         { "apple", "appleHalf", "avocado", "avocadoHalf", "bacon",  "baconRaw",
         "bag", "bagFlat", "banana", "barrel", "beet", "bottleKetchup", "bottleMusterd", "bottleOil", "bowl",
@@ -47,14 +47,22 @@ public class PlayerList : MonoBehaviour
         "tomato", "tomatoSlice", "turkey", "utensilFork", "utensilKnife", "utensilSpoon", "waffle", "watermelon", "whippedCream",
         "whisk", "wholeHam", "wholerHam", "wineRed", "wineWhite"
         };
-
+        
         System.Random random = new System.Random();
-        List<String> checklist = new List<String>();
+        List<string> checklist = new List<string>();
+        List<string> tempList = new List<string>();
+        for (int j = 0; j < objects.Length; j++)
+        {
+            tempList.Add(objects[j]);
+        }
+
 
         for (int i = 0; i < 8; i++)
         { 
             int a = random.Next(objects.Length);
-            checklist.Add(objects[a]);
+
+            checklist.Add(tempList[a]);
+            tempList.Remove(tempList[a]);
 
         }
         return checklist;
