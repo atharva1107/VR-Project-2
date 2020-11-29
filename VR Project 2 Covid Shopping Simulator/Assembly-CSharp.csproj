@@ -217,13 +217,8 @@
     <Compile Include="Assets\Oculus\Spatializer\scripts\ONSPVersion.cs" />
     <Compile Include="Assets\Oculus\Spatializer\scripts\OculusSpatializerUnity.cs" />
     <Compile Include="Assets\Oculus\Spatializer\scripts\helpers\ONSPReflectionZone.cs" />
-    <Compile Include="Assets\Pixel Play\Scripts\ExtendedFlycam.cs" />
-    <Compile Include="Assets\Pixel Play\Scripts\OffScreenIndicator\ArrowObjectPool.cs" />
-    <Compile Include="Assets\Pixel Play\Scripts\OffScreenIndicator\BoxObjectPool.cs" />
-    <Compile Include="Assets\Pixel Play\Scripts\OffScreenIndicator\Indicator.cs" />
-    <Compile Include="Assets\Pixel Play\Scripts\OffScreenIndicator\OffScreenIndicator.cs" />
-    <Compile Include="Assets\Pixel Play\Scripts\OffScreenIndicator\OffScreenIndicatorCore.cs" />
-    <Compile Include="Assets\Pixel Play\Scripts\OffScreenIndicator\Target.cs" />
+    <Compile Include="Assets\Player.cs" />
+    <Compile Include="Assets\basket.cs" />
     <None Include="Assets\Oculus\SampleFramework\Usage\HandsTrainExample\Shaders\XingLightShader.shader" />
     <None Include="Assets\Oculus\Avatar\Resources\Materials\AvatarMaterialStateShader.cginc" />
     <None Include="Assets\Oculus\SampleFramework\Usage\HandsTrainExample\Shaders\ButtonGlow.shader" />
@@ -231,9 +226,11 @@
     <None Include="Assets\Oculus\Avatar\Resources\Materials\Version1.5\Avatar_Mobile_Loader.shader" />
     <None Include="Assets\Oculus\SampleFramework\Usage\HandsTrainExample\Shaders\GradientSkybox.shader" />
     <None Include="Assets\Oculus\Avatar\Resources\Materials\Version1.5\Avatar_Mobile_SingleComponent.shader" />
+    <None Include="Assets\listing2.txt" />
     <None Include="Assets\Oculus\Avatar\Resources\Materials\AvatarSurfaceShader.shader" />
     <None Include="Assets\Oculus\Avatar\Resources\Materials\Expressive\AvatarEyeLens.shader" />
     <None Include="Assets\Oculus\Avatar\Resources\Materials\Expressive\Avatar_PC_SingleComponentExpressive.shader" />
+    <None Include="Assets\listing.txt" />
     <None Include="Assets\models_NPC\animated characters\License.txt" />
     <None Include="Assets\Oculus\SampleFramework\Usage\HandsTrainExample\Shaders\OculusSampleTrainPropsShader.shader" />
     <None Include="Assets\Oculus\SampleFramework\Usage\DistanceGrab\Materials\ToyCubeWithOutline.shader" />
