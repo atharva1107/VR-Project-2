@@ -13,46 +13,65 @@ Members:
 1. Faus Palting
 2. Atharva Raibagi
 
+## Introduction
 
 The goal of the game is to find the items on the item list and get them as safely (exposure) and quickly (timer) as possible. Other factors and challenges may appear.
 
-HUD elements
-Covid Meter or "Exposure" works like a health bar.
-Highlight sources of contact (risks of exposure, people, etc).
-Damage Indicator - points to direction of source of contact when too close - 6ft.
-Timer counts down - (maybe doesn't stop, but penalizes for taking too long)
+## Initial Scene
 
-Points/Grade based system - Awarded points based on how a user performs the task.
-Different Locations - grocery/electronics, etc.
-Change difficulty - e.g. add more sources of contact, less time, etc.
+When the game is first opened up, the user is taken to th grocery store scene and a randomly generated checklist is generated. This checklist is to be followed by the player to pickup items from the store while maintaining safe distance from other people spawned in the environment. 
 
-Educating users - precautionary steps to follow so it works as an educational/social theme.
-Total points based on health, time, items, etc (may add or subtract other points based on other factors).
+<br />
+
+Following is the initial scene of the game:
+
+<br />
+
+![alt text](https://github.com/atharva1107/VR-Project-2/blob/main/Assets/intial.png)
+
+<br />
+
+The following code generates the checklist with items to be picked up:
+
+<br />
+
+![alt text](https://github.com/atharva1107/VR-Project-2/blob/main/Assets/list.png)
 
 
-### Sketches
+<br />
+<br />
 
-<br />        
+The player has to pick up the items and place it in the basket
 
-Basic Outline
+<br />
 
-<br />    
+![alt text](https://github.com/atharva1107/VR-Project-2/blob/main/Assets/pickup.png)
 
-![alt text](https://github.com/atharva1107/VR-Project-2/blob/main/Assets/basic-outline.png)
 
-<br />        
+<br />
+<br />
 
-HUD Baisc design
+![alt text](https://github.com/atharva1107/VR-Project-2/blob/main/Assets/basket.png)
 
-<br />        
+<br />
+<br />
 
-![alt text](https://github.com/atharva1107/VR-Project-2/blob/main/Assets/HUD-basic.png)
+The player has to complete all the items in the list with maintaining safe distance from other or the player loses health
 
-<br />        
+<br />
 
-Damage Indicator
+![alt text](https://github.com/atharva1107/VR-Project-2/blob/main/Assets/health.png)
 
-<br />       
+We can see here that the player failed to socially distance from others and lost some health
 
-![alt text](https://github.com/atharva1107/VR-Project-2/blob/main/Assets/damage-indicator.png)
+
+<br />
+<br />
+<br />
+
+
+
+
+
+
 
