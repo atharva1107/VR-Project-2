@@ -56,4 +56,11 @@ public class Player : MonoBehaviour
         TakeDamage(totalDamage);
     }
 
+    private void OnTriggerStay(Collider other) //when the object enters the trigger collider
+    {
+        if(other.gameObject.tag == "Enemy") { 
+        ApplyHitPoints(other.gameObject.transform.position, 4);
+            }
+    }
 }
+
