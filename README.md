@@ -27,7 +27,7 @@ Following is the initial scene of the game:
 
 <br />
 
-![alt text](https://github.com/atharva1107/VR-Project-2/blob/main/Assets/intial.png)
+![alt text](https://github.com/atharva1107/VR-Project-2/blob/main/Assets/initial.png)
 
 <br />
 
@@ -56,19 +56,32 @@ The player has to pick up the items and place it in the basket
 <br />
 <br />
 
-The player has to complete all the items in the list with maintaining safe distance from other or the player loses health
+The player has to complete all the items in the list with maintaining safe distance from other or the player loses health:
 
 <br />
 
 ![alt text](https://github.com/atharva1107/VR-Project-2/blob/main/Assets/health.png)
 
-We can see here that the player failed to socially distance from others and lost some health
+We can see in the above picture that the player failed to socially distance from others and lost some health
 
 
 <br />
 <br />
 <br />
 
+## Team Member contributions:
+
+Faus: Frontend, UI, HUD elements, Video, finding and adding 3D models, creating the player and basket script, picking up objects and placing in the basket
+Atharva: Generating checklist for player, script to compare items in bucket and checklist, script to get damage from another person, Report
+## References
+
+All the 3D Models: https://kenney.nl/
+
+Jingle: https://kenney.nl/
+
+Textures:  https://cc0textures.com/
+
+Music: https://freepd.com/comedy.php the music "Foam Rubber" by  Alexander Nakarada.
 
 
 
