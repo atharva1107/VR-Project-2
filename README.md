@@ -72,6 +72,7 @@ We can see in the above picture that the player failed to socially distance from
 ## Team Member contributions:
 
 Faus: Frontend, UI, HUD elements, Video, finding and adding 3D models, creating the player and basket script, picking up objects and placing in the basket
+<br />
 Atharva: Generating checklist for player, script to compare items in bucket and checklist, script to get damage from another person, Report
 ## References
 
