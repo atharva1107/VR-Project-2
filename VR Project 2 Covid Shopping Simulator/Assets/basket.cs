@@ -6,6 +6,10 @@ public class basket : MonoBehaviour
 {
     [SerializeField] public AudioSource audio;
     private List<string> boughtList = new List<string>();
+    list l = new list();
+    List<string> checklist;
+    checklist = l.GenerateList();
+
     private void OnDisable()//clears when the game or scene ends i think
     {
      
@@ -24,8 +28,11 @@ public class basket : MonoBehaviour
             if (!boughtList.Contains(mesh.name))
             {
                 boughtList.Add(mesh.name);
+                checklist.Remove(mesh.name);
                 audio.Play();
+
             }
+
             Destroy(other.gameObject.GetComponent<MeshRenderer>());
 
         }
